@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>BILASS</title>
+</head>
+<body onload="translation()" onscroll="menu()">
+    <header id="home" >
+      <img src="logo.png" alt="" class="logo">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarExample01"
+              aria-controls="navbarExample01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="#" onclick="menu1()">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+      
+        <!-- Background image -->
+        <div
+          class="p-5 text-center bg-image"
+          style="
+            background: Url(bg.jpg);
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          "
+        >
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3 title">A.B-AGENCY</h1>
+                <h4 class="mb-3  subtitle">WE ARE FULL STACK WEB DEVELOPERS </h4>
+                <a class="btn btn-outline-light btn-lg mt-3 " href="#!" role="button"
+                >KNOW MORE</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Background image -->
+      </header>
+    <div class="container_img">
+        <img src="./img/asslem.png" alt="" class="asslem">
+        <img src="./img/bilel.png" alt="" class="bilel">
+    </div>
+    <main>
+      <section class="titleservices" id="services">
+        <h1 class="titre">SERVICES</h1>
+      </section>
+      <section class="services">
+        <section class="cart1" onmouseenter="audio()" >
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3"></i>
+        <div class="cart" >
+         <h2 class="title_cart"> FRONT-END WEB DEVELOPMENT </h2>
+        </div>
+      </section>
+      <section class="cart1" onmouseenter="audio()" >
+        <i class="fa-brands fa-php"></i>
+        <i class="fa-brands fa-python"></i>
+        <i class="fa-brands fa-node-js"></i>
+        <div class="cart">
+          <h2 class="title_cart"> BACK-END WEB DEVELOPMENT </h2>
+        </div>
+      </section>
+      <section class="cart1" onmouseenter="audio()" >
+        <img src="pr.png" alt="" class="pr">
+        <img src="ps.png" alt="" class="ps">
+        <div class="cart">
+          <h2 class="title_cart"> VIDEO AND PHOTO EDITING </h2>
+        </div>
+      </section>
+      </section>
+
+
+      <section class="titleabout" >
+        
+      </section>
+      <section class="about" id="about">
+        <h1 class="titre" >ABOUT</h1>
+        <div class="cart2">
+          <h2 class="title_cart">ASSLEM NAJJAR</h2> 
+          <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum delectus amet earum provident. Ab in voluptatibus architecto asperiores eos temporibus ducimus, obcaecati itaque debitis id rerum? Sequi ab exercitationem suscipit!</p>
+        </div>
+        <div class="cart2">
+          <h2 class="title_cart"> BILEL BOURGOU</h2>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, repellat ratione? Repudiandae quod ab, consequatur blanditiis perferendis amet. Hic soluta officia eaque non maiores ex quis accusamus doloribus !</p>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+       
+      </section>
+    </main>
+    <section class="wavess">
+    <footer>
+      <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social_icon">
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+      </ul>
+  </footer>
+</section>
+    <section class="wave1">
+    </section>
+    <script src="app.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
+</body>
+</html>
